@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - XyrilleHTML.Web</title>
+    <link rel="stylesheet" href="~/Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/FontAwesome/css/all.min.css" />
+</head>
+<body>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/home" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <img class="bi me-2" width="80" height="32" src="~/Images/logo/xyrilleLogo.png" />
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="~/home" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="~/home/create" class="nav-link px-2 text-white">Create Views</a></li>
+                   
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control form-control-dark" placeholder="Search...">
+                </form>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light me-2">Login</button>
+                    <button type="button" class="btn btn-warning">Sign-up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+   
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - XyrilleHTML.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/Jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/FontAwesome/js/all.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
