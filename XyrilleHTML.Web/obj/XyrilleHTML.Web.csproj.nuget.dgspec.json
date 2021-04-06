@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VGD PC 9\\source\\repos\\XyrilleHTML\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj": {}
+    "C:\\Users\\VGD PC 9\\Videos\\GitRootXyrilleHtml\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VGD PC 9\\source\\repos\\XyrilleHTML\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj": {
+    "C:\\Users\\VGD PC 9\\Videos\\GitRootXyrilleHtml\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VGD PC 9\\source\\repos\\XyrilleHTML\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj",
+        "projectUniqueName": "C:\\Users\\VGD PC 9\\Videos\\GitRootXyrilleHtml\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj",
         "projectName": "XyrilleHTML.Web",
-        "projectPath": "C:\\Users\\VGD PC 9\\source\\repos\\XyrilleHTML\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj",
+        "projectPath": "C:\\Users\\VGD PC 9\\Videos\\GitRootXyrilleHtml\\XyrilleHTML.Web\\XyrilleHTML.Web.csproj",
         "packagesPath": "C:\\Users\\VGD PC 9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VGD PC 9\\source\\repos\\XyrilleHTML\\XyrilleHTML.Web\\obj\\",
+        "outputPath": "C:\\Users\\VGD PC 9\\Videos\\GitRootXyrilleHtml\\XyrilleHTML.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
